@@ -1,0 +1,65 @@
+[terminal.shell]
+program = "/usr/bin/zsh"
+
+[colors.primary]
+background = '#080808'
+foreground = '#b2b2b2'
+
+[colors.normal]
+black   = '#080808'
+red     = '#ff5454'
+green   = '#62d675'
+yellow  = '#ffba69'
+blue    = '#54a4f3'
+magenta = '#aa62ea'
+cyan    = '#42c6ed'
+white   = '#b2b2b2'
+
+[colors.bright]
+black   = '#808080'
+red     = '#ff8787'
+green   = '#95dea5'
+yellow  = '#ffdc9b'
+blue    = '#87baf5'
+magenta = '#d999f9'
+cyan    = '#6cd6ed'
+white   = '#ffffff'
+
+[font]
+size = 9.0
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "Hack Nerd Font Mono"
+style = "Bold Italic"
+
+[window]
+opacity = 0.85
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+decorations = "Full"
+decorations_theme_variant = "Dark"
+dimensions = { columns = 220, lines = 60 }
+resize_increments = true
+position = { x = 200, y = 200 }
+
+[scrolling]
+multiplier = 1
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_interval = 350
+thickness = 0.01
+
+[terminal]
