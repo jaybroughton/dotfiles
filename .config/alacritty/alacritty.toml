@@ -45,7 +45,7 @@ family = "Hack Nerd Font Mono"
 style = "Bold Italic"
 
 [window]
-opacity = 0.85
+opacity = 0.80
 padding = { x = 8, y = 8 }
 dynamic_padding = true
 decorations = "Full"
